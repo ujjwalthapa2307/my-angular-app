@@ -1,3 +1,6 @@
+<header>
+  <div *ngIf="mediaItems">{{ mediaItems | categoryList }}</div>
+</header>
 <section>
   <app-media-item
     [ngClass]="{
